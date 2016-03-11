@@ -1,0 +1,11 @@
+http://stackoverflow.com/questions/18687818/auto-reloading-a-sails-js-app-on-code-changes
+
+
+.nodemonignore
+
+views/*
+.tmp/*
+.git/*
+
+
+nodemon -w api -w config
